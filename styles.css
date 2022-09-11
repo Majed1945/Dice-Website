@@ -32,7 +32,10 @@ p {
 }
 
 footer {
-  margin-top: 10%;
+  position: absolute;
+  bottom: 2rem;
+  right: 30%;
+  left: 30%;
   color: black;
   font-size: 2rem;
   text-align: center;
