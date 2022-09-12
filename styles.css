@@ -64,3 +64,8 @@ body {
         background-position: 0% 50%;
     }
 }
+@media (max-width: 1275px) and (min-width: 990px) {
+  .twoDice{
+    padding-top: 6%;
+    padding-bottom: 50%;
+  }
