@@ -33,7 +33,9 @@ p {
 }
 
 footer {
-  bottom: 2rem;
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
   right: 30%;
   left: 30%;
   color: black;
@@ -63,10 +65,4 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
-@media (max-width: 1275px){
-  .twoDice{
-    padding-top: 6%;
-    padding-bottom: 50%;
-  }
 }
